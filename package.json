@@ -1,0 +1,33 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel dev index.html",
+    "build": "parcel build index.html",
+    "postbuild": "workbox generateSW"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "parcel-bundler": "^1.12.4",
+    "workbox-cli": "^5.1.3"
+  },
+  "dependencies": {
+    "@vaadin/router": "^1.7.1",
+    "@vaadin/vaadin-button": "^2.2.2",
+    "@vaadin/vaadin-charts": "^6.2.4",
+    "@vaadin/vaadin-checkbox": "^2.2.13",
+    "@vaadin/vaadin-progress-bar": "^1.1.2",
+    "@vaadin/vaadin-radio-button": "^1.3.0-alpha1",
+    "@vaadin/vaadin-tabs": "^3.1.0-alpha1",
+    "@vaadin/vaadin-text-field": "^2.5.5",
+    "lit-element": "^2.3.1",
+    "nanoid": "^3.1.3",
+    "redux": "^4.0.5"
+  }
+}
