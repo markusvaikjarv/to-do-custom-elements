@@ -1,6 +1,6 @@
 [LIVE DEMO](https://to-do-custom-elements.netlify.app)
 
-**Build instructions**
+**Build instructions:**  
 This project uses Parcel for bundling
 
     npm i
